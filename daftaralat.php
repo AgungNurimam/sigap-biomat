@@ -22,7 +22,8 @@ while($data=mysql_fetch_array($has)){
 					<h4>Kategori : '.$data['Kategori'].'</h4>
 					<p>'.$art.'..</p>
 
-				    <a href="alat.php?p='.$data['id_alat'].'">Read More</a>
+				    <a class="btn btn-primary btn-sm" href="alat.php?p='.$data['id_alat'].'">Read More</a>
+				    <hr>
 					<br><br>
 		
 		 ';}
