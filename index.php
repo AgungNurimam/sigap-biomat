@@ -27,9 +27,10 @@
 
 			<nav id="menu">
 				<ul class="nav nav-pills" role="tablist">
-					<li><a href="index.php?webpro=daftaralat">Daftar Alat</a></li>
-					<li><a href="index.php?webpro=peminjaman">Prosedur Peminjaman</a></li>
+					<li><a href="index.php?webpro=daftaralat">Cari Alat</a></li>
+					<li><a href="index.php?webpro=peminjaman">Jadwal Penggunaan Alat</a></li>
 					<li><a href="index.php?webpro=view">Ketentuan Penggunaan</a></li>
+					<li><a href="index.php?webpro=view">Daftar Operator Alat</a></li>
 					<li><a href="logout.php">Kontak</a></li>
 					
 				</ul>

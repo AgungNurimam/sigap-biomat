@@ -12,7 +12,7 @@ $has = mysql_query("select * from alat");
 $num = mysql_num_rows($has);
 
 if($num<1){
-	echo'<center>Tidak Ada Artikel</center>';
+	echo'<center>Tidak Ada Data Alat</center>';
 }else{
 while($data=mysql_fetch_array($has)){
 	$art = substr($data['deskripsi'],0,100);
