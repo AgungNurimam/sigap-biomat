@@ -6,7 +6,7 @@
 
 		<p>
 			<label>Photo Alat:</label><br>
-			<input type="file" id="foto_alat"/>
+			<input type="file" id="images" name="images">
 		</p>
 
 		<p>

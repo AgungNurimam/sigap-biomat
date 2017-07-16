@@ -28,11 +28,12 @@
 			<nav id="menu">
 				<ul class="nav nav-pills" role="tablist">
 					<li><a href="index.php?webpro=daftaralat">Cari Alat</a></li>
-					<li><a href="index.php?webpro=peminjaman">Jadwal Penggunaan Alat</a></li>
-					<li><a href="index.php?webpro=view">Ketentuan Penggunaan</a></li>
-					<li><a href="index.php?webpro=view">Daftar Operator Alat</a></li>
-					<li><a href="logout.php">Kontak</a></li>
-					
+					<li><a href="index.php?webpro=jadwal">Jadwal Penggunaan Alat</a></li>
+					<li><a href="index.php?webpro=ketentuan">Ketentuan Penggunaan</a></li>
+					<li><a href="index.php?webpro=operator">Daftar Operator Alat</a></li>
+					<li><a href="index.php?webpro=kontak">Kontak</a></li>
+					<li><a href="index.php?webpro=kontak">Login</a></li>
+
 				</ul>
 			</nav>
 			
@@ -45,26 +46,23 @@
 							$pageload="berita";
 						}
 						switch ($pageload) {
-							case 'formatartikel':
-								include "formartikel.php";
-								break;
-							case 'insert':
-								include"saveartikel.php";
-								break;
-							case 'view':
-								include"view.php";
+							case 'daftaralat':
+								include "daftaralat.php";
 								break;
 							case 'peminjaman':
 								include"peminjaman.php";
 								break;
-							case 'delete':
-								include"delete.php";
+							case 'jadwal':
+								include"jadwal.php";
 								break;
-							case 'populer':
-								include"popularPosts.php";
+							case 'ketentuan':
+								include"ketentuan.php";
 								break;
-							case 'update':
-								include"update.php";
+							case 'operator':
+								include"operator_alat.php";
+								break;
+							case 'kontak':
+								include"kontak.php";
 								break;
 							case 'formcari':
 								include"cari.php";
@@ -103,7 +101,7 @@
 			</div>
 
 			<footer id="footer">
-				<p class="footer-text">Biomaterial Lipi Cibinong</p>
+				<p class="footer-text">Biomaterial Lipi</p>
 			</footer>
 		</div>
 

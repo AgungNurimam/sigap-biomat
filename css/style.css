@@ -74,7 +74,7 @@ p {
 	margin-left: 10px;
 }
 #content{
-	width: 680px;
+	width: auto;
 	height: auto;
 	float: left;
 }

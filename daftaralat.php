@@ -18,7 +18,7 @@ while($data=mysql_fetch_array($has)){
 	$art = substr($data['deskripsi'],0,100);
 	 echo '
 					<h2>'.$data['nama_alat'].'</h2>
-					<img width="330" height="280" src="foto_alat/'.$data['foto_alat'].'">
+					<img class="img-rounded" width="330" height="280" src="admin/foto-alat/'.$data['foto_alat'].'">
 					<h4>Kategori : '.$data['Kategori'].'</h4>
 					<p>'.$art.'..</p>
 
